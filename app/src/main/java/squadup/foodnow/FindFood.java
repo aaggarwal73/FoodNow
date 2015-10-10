@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.location.Location;
 //import andoird.app.Activity;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -18,7 +19,8 @@ public class FindFood extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_find_food);
+        //setContentView()
+        //setContentView(R.layout.activity_find_food);
         setUpMapIfNeeded();
     }
 
@@ -26,6 +28,7 @@ public class FindFood extends FragmentActivity {
     protected void onResume() {
         super.onResume();
         setUpMapIfNeeded();
+        //Button
     }
     //whats up
 
@@ -65,7 +68,8 @@ public class FindFood extends FragmentActivity {
      */
     private void setUpMap() {
         mMap.setMyLocationEnabled(true);
-        Location myLocation = new Location(mMap.getMyLocation());
+
+        //Location myLocation = new Location(mMap.getMyLocation());
         mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
         //
         // mMap.addMarker(new MarkerOptions().position(new LatLng(myLocation.getLatitude(),myLocation.getLongitude())).title("Marker"));

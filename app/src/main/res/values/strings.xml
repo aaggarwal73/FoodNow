@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FoodNow</string>
     <string name="title_activity_find_food">Find It</string>
+    <string name="title_activity_main">"Main Activity! "</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>
